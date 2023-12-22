@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('GeneralSans-Regular.otf') format('opentype');
+    /* Additional font formats can be added for cross-browser compatibility */
+  }
+#main{
+    background-color: #000;
+    color: #fff;
+    /* overflow-x: hidden; */
+}
+.circle-pointer{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #ffffff76;
+    position: absolute;
+    transition: all ease 0.1s;
+    z-index: 999;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+#hero{
+    height: 80vh;
+    position: relative;
+    padding: 0 20px;
+}
+.headings{
+    margin-top: 95px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: red; */
+}
+.main-heading{
+    font-size: 5vw;
+    font-weight: 600;
+    opacity: 0.6;
+    line-height: 1;
+    /* background: red; */
+    width: fit-content;
+    overflow: hidden;
+}
+.boundingelem{
+    transform: translateY(100%);
+}
+.sub-heading{
+    line-height: 1;
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: right;
+    /* background: red; */
+    overflow: hidden;
+}
+.sub-heading h1{
+    opacity: 0.6;
+}
+.sub-heading h5{
+    font-size: 1.4vw;
+    color: #fff;
+}
+.about{
+    margin-top: 8vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.hero-down{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-down a{
+    text-decoration: none;
+    color: #fff;
+}
+.circle-right{
+    display: flex;
+    gap: 10px;
+    margin-right: 2vw;
+}
+.circle i{
+    z-index: 9;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff76;
+    /* opacity: 0.2; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1{
+    height: 120vh;
+    position: relative;
+    padding-top: 4vw;
+    padding-left: 3vw;
+    /* background: #000; */
+}
+.elem img{
+    position: absolute;
+    width: 300px;
+    opacity: 0;
+}
+.elem:first-child{
+    border-top: 2px solid #fff;
+}
+.elem{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    border-bottom: 2px solid #fff;
+    padding: 4vw 1vw;
+    font-size: 4vw;
+}
+.elem h2{
+    color: #ffffff76;
+}
+.elem h5{
+    font-size: 18px;
+}
+.page2{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* gap: 6vw; */
+}
+.about-me{
+    width: 40%;
+}
+.image{
+    height: 40vh;
+    width: 50vw;
+    background: url("https://cynthiaugwu.com/images/cynthia.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.about-me-heading{
+    color: #ffffff76;
+}
+.about-me-content{
+    line-height: 1.5;
+    margin: 1vw 0;
+}
+button{
+    background: none;
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    padding: 0.5vw 2vw;
+    font-weight: 500;
+    transition: all ease 0.5s;
+}
+button:hover{
+    background: #fff;
+    color: #000;
+    transition: all ease 0.5s;
+}
+.page3{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2vw;
+    /* background: red; */
+    
+}
+.mention{
+    color: #ffffff76;
+    margin-bottom: 1vw;
+}
+.subscribe{
+    display: flex;
+
+}
+.subscribe a{
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    /* background: red; */
+}
+.foot-left{
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+}
+.foot-right{
+    display: flex;
+    gap: 20px;
+
+}
+.foot-right a{
+    color: #fff;
+    text-decoration: none;
+    
+}
